@@ -13,6 +13,11 @@
   }
 }
 
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 17rem));
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
